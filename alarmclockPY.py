@@ -8,7 +8,6 @@ for item in list: pass
 nlist = [] 
 nlist += list
 pick = random.randrange(len(nlist))
-print(nlist[pick])
 #Print the current time
 print ("current time is:"+datetime.datetime.now().strftime("%H:%M:%S"))
 print("\nEnter the time you want to wake up as HH:MM:SS")
