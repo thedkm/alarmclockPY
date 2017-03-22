@@ -1,5 +1,5 @@
 import time,random ,webbrowser,datetime
-from sys import argv  #Import the argument from the command line. 
+from sys import argv  #Import argument from the command line from sys module. 
 script, file_ = argv
 # Check the playlist file
 file = open(file_, 'r+')
